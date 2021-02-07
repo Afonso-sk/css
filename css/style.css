@@ -1,0 +1,42 @@
+/*formatação da página, resertar todo padrão do navegador*/
+/*  * significa todos os elementos da pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Colocar mesma fonte para toto nosso site*/
+    font-family: 'lato', sans-serif;
+}
+
+/*Como manipular as fontes no nosso site, font-size para tamanho, e font-style, estilo,etc*/
+h2{
+    font-size: 17px;
+    font-style: normal;
+    font-family:sans-serif;
+/*Para importar as fontes mais bonitas acessamosgoogle fonts e colamos o link antes do css*/
+}  
+/*chamando Class teste do h2*/
+.teste {
+    color: red;
+}
+/*chamando id teste*/
+#teste{
+    color:green;
+}
+.paragrafo{
+    font-size: 20px;
+}
+/*Chamr drud próprios atributos [] usando coxetes,mas isso não é comum utilizar*/
+[name=paragrafo]{
+    color: red;
+}
+.bg{
+    width: 100%;
+    height: 400px;
+    background-image: url('../image/landscape.jpg');
+    /*Para não repetir a imagem*/
+    background-repeat: no-repeat;
+    background-position: center;
+    /*Para esticar a imagem para toda tela*/
+    background-size: cover;
+}
